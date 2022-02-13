@@ -1,5 +1,6 @@
 <%-- any content can be specified here e.g.: --%>
 
+<%@page import="java.util.Vector"%>
 <%@page import="java.util.List"%>
 <%@page import="java.util.ArrayList"%>
 <%@page import="java.text.NumberFormat"%>
@@ -7,7 +8,7 @@
 <%@ page pageEncoding="UTF-8" %>
 <%!
 
-ArrayList<String> errors;
+Vector<String> errors;
     /**
      * Check for required fields. Adds a field specific error to errors list for missing value
      */
